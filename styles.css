@@ -12,10 +12,12 @@
 
 .nav_banner_bg {
     background-color: rgba(255, 144, 14, 0.1);
+    padding: 10px 10px 70px 10px;
+    border-radius: 16px;
 }
 
 .navbar_postition {
-    margin: 40px 10rem;
+    margin: 40px 10rem 100px 10rem;
 }
 
 .navbar_align {
@@ -37,3 +39,33 @@ ul li a {
     text-decoration: none;
     color: black;
 }
+
+/* navbar is completed */
+
+.banner_title {
+    font-size: 64px;
+    margin: 0 23rem;
+    font-weight: 700;
+}
+
+.banner_description {
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+    margin: 0 16rem;
+    margin-top: 70px;
+}
+
+.reusable_btn {
+    border: 3px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    background: rgb(255, 144, 14);
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+/* Banner completed */
