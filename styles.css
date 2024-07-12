@@ -162,3 +162,44 @@ ul li a {
     top: 47rem;
 
 }
+
+/* features section completed */
+.Some_facts_title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.Some_facts_description {
+    margin: 30px 35rem 70px 0px;
+    font-size: 14px;
+    font-weight: 40;
+    color: gray;
+}
+
+
+
+
+.badges_align {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.badges_div {
+    padding: 30px;
+    border: 3px solid rgb(255, 144, 14);
+
+    border-radius: 10px;
+}
+
+.badeges_title {
+    margin: 5px 0;
+}
+
+.badges_about {
+    font-size: 14px;
+    color: gray;
+
+}
+
+/* Badges section completed */
