@@ -27,6 +27,10 @@
     align-items: center;
 }
 
+.banner_img {
+    width: 1200px;
+}
+
 ul {
     display: flex;
     gap: 2rem;
@@ -201,5 +205,156 @@ ul li a {
     color: gray;
 
 }
+.navbar_logo{
+    font-size: 35px;
+}
 
 /* Badges section completed */
+
+/* Add media queries for small screens */
+
+@media only screen and (max-width: 768px) {
+
+    /* Container */
+    * {
+        margin: 0;
+    }
+
+    .container {
+
+        margin: 0 2rem;
+
+    }
+    .navbar_logo{
+      margin-bottom: 30px;
+    }
+
+    .navbar_postition {
+        margin: 0;
+    }
+    .navbar_align{
+        flex-direction: column;
+        
+    }
+    
+    ul{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 0;
+        
+    }
+  
+
+    .banner_description,
+    .banner_title {
+        margin: 0;
+    }
+
+    .banner_title {
+        font-size: 35px;
+        margin-top: 100px;
+    }
+
+    .banner_description {
+        font-size: 13px;
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .architect_img {
+        width: 100%;
+    }
+
+    .architect_align {
+        text-align: center;
+    }
+
+    .some_fact_align_for_responsive {
+        text-align: center;
+    }
+
+    /* Quick list section */
+
+    .quick_list_section_align {
+
+        flex-direction: column-reverse;
+
+        gap: 20px;
+
+    }
+
+
+    .image_align {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+    .quick_list_options_align {
+
+        flex-basis: 100%;
+
+    }
+
+
+    /* Features section */
+
+    .features_section_align {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+
+    .sub_features_div {
+
+        margin: 20px 0;
+
+    }
+
+
+    .specia_btn {
+
+        position: relative;
+
+        right: 0;
+
+        top: 0;
+
+        margin: 20px 0;
+
+    }
+
+
+    /* Some facts section */
+
+    .Some_facts_description {
+
+        margin: 20px 0;
+
+    }
+
+
+    .badges_align {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+
+    .badges_div {
+
+        margin: 20px;
+
+    }
+
+}
