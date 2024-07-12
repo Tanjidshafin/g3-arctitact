@@ -111,7 +111,7 @@ ul li a {
     display: flex;
     gap: 50px;
     align-items: center;
-    
+
 
 }
 
@@ -127,9 +127,10 @@ ul li a {
     color: gray;
     font-size: 13px;
     margin-top: 12px;
-    
+
 }
-.sub_features_title{
+
+.sub_features_title {
     font-size: 15px;
     margin-bottom: 12px;
 }
@@ -145,7 +146,8 @@ ul li a {
     color: gray;
     font-size: 13px;
 }
-.specia_btn{
+
+.specia_btn {
     border: 3px solid rgb(255, 144, 14);
     border-radius: 8px;
     color: white;
@@ -154,9 +156,9 @@ ul li a {
     padding: 20px 30px;
     background: rgb(255, 144, 14);
     margin-top: 32px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     position: absolute;
-    left: 700px;
-    top: 183rem;
-   
+    right: 28rem;
+    top: 47rem;
+
 }
