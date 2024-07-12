@@ -71,30 +71,92 @@ ul li a {
 
 /* Banner completed */
 
-.container{
+.container {
     margin: 0 10rem;
 }
-.quick_list_section_align{
+
+.quick_list_section_align {
     display: flex;
     align-items: center;
     gap: 50px;
 }
-.image_align{
+
+.image_align {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
+
 .quick_list_options_align,
-.image_align{
+.image_align {
     flex: 1;
     flex-basis: 50%;
 }
-.quick_list_title{
-font-size: 45px;
-font-weight: 700;
+
+.quick_list_title {
+    font-size: 45px;
+    font-weight: 700;
 }
-.quick_list_description{
-color: gray;
-font-size: 16px;
-margin: 20px 0;
+
+.quick_list_description {
+    color: gray;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+
+
+
+.features_section_align {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+
+}
+
+.features_title {
+    font-size: 40px;
+    border-left: 4px solid rgb(255, 144, 14);
+    padding-left: 10px;
+
+    font-weight: 700;
+}
+
+.features_description {
+    color: gray;
+    font-size: 13px;
+    margin-top: 12px;
+    
+}
+.sub_features_title{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.sub_features_div {
+    padding: 30px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.sub_features_description {
+    color: gray;
+    font-size: 13px;
+}
+.specia_btn{
+    border: 3px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    background: rgb(255, 144, 14);
+    margin-top: 32px;
+    margin-bottom: 50px; 
+    position: absolute;
+    left: 700px;
+    top: 183rem;
+   
 }
